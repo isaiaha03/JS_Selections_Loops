@@ -38,6 +38,7 @@ while (a <= 100)
     {
         console.log(a);
     }
+    a++;
 }
 
 let b = 1;
@@ -46,6 +47,7 @@ do {
     {
         console.log(b);
     }
+    b++;
 } while (b <= 100);
 
 // Exercise 2 rewritten as while and do/while loops
@@ -84,6 +86,7 @@ do {
     d++;
 } while (d <= 100);
 
+
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
 let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
@@ -93,7 +96,7 @@ for (let e = 0; e <= n; e++)
 {
     if (e == value)
     {
-        console.log('Found value!');
+        console.log(e, 'Found value!');
         break;
     }
     else if (e == n)
